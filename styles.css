@@ -1,0 +1,60 @@
+* {
+  background: #000000;
+  margin: 40px;
+  font-family: 'Codystar', cursive;
+  color: #ffffff;
+
+}
+
+h1 {
+  color: #ffffff;
+}
+
+.red {
+  color: #f44141;
+}
+
+.blue {
+  color: #4286f4;
+}
+
+.yellow {
+  color: #f4dc41;
+}
+
+img {
+  height: 250px;
+  width: 350px;
+}
+
+p {
+  color: #ffffff;
+}
+
+a:link {
+  color: #f44141;
+}
+
+a:visited {
+  color: #4286f4;
+}
+
+a:hover {
+  color: #f4dc41;
+}
+
+.correct-ratio {
+  object-fit: cover;
+}
+
+@media screen and (max-width: 750px) {
+img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+}
+}
